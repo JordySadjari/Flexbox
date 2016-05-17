@@ -1,0 +1,54 @@
+html, body {
+    color: white;
+    line-height: 1.2;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    padding-left: 1em;
+    width: 100%;
+    color: black
+}
+
+section.char {
+    padding: 2em;
+    min-width: 20em;
+    max-height: 50em;
+    min-height: 20em;
+    margin: .5em;
+    background-color: black;
+    flex: 1 0;
+    display: flex;
+    max-width: 33.3%;
+    flex-direction: column;
+}
+
+.empty {
+    padding: 2em;
+    min-width: 30em;
+    max-height: 50em;
+    min-height: 20em;
+    margin: .5em;
+    background-color: white;
+    flex: 1;
+    max-width: 33.3%;
+    flex-direction: column;
+}
+
+section.char img {
+    height: 350px;
+    border: 2px dashed white;
+}
+
+.Butt{
+    width: 10em;
+    padding: .5em;
+    margin: auto auto 0 auto;
+    display: block;
+    
+}
