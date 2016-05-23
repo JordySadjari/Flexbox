@@ -29,10 +29,8 @@ section.char {
 }
 
 .empty {
-    padding: 2em;
     min-width: 30em;
     max-height: 50em;
-    min-height: 20em;
     margin: .5em;
     background-color: white;
     flex: 1;
@@ -48,7 +46,15 @@ section.char img {
 .Butt{
     width: 10em;
     padding: .5em;
-    margin: auto auto 0 auto;
+    margin: auto auto auto auto;
     display: block;
     
+    
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
 }
